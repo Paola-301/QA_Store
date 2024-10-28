@@ -1,0 +1,11 @@
+{  
+    "first_name" :  "//input[contains(@name,'firstname')]",
+    "last_name" :  "//input[contains(@name,'lastname')]",
+    "email" :  "//input[contains(@type,'email')]",
+    "telephone" :  "//input[contains(@type,'tel')]",
+    "password" :  "//input[contains(@name,'password')]",
+    "password_confirm" :  "//input[contains(@name,'confirm')]",
+    "subscribe" :  "//label[@class='custom-control-label'][contains(.,'No')]",
+    "privacy_policy" : "(//label[contains(@class,'custom-control-label')])[3]",
+    "btn_continue" :  "//input[contains(@type,'submit')]"
+    }

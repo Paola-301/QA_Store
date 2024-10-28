@@ -1,0 +1,5 @@
+{
+    "email_selector" : "//input[contains(@name,'email')]",
+    "password_selector" : "//input[contains(@type,'password')]",
+    "btn_continue_selector" : "//input[contains(@type,'submit')]"
+}
