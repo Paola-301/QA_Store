@@ -131,7 +131,7 @@ def test_empty_password_field(login):
 #    assert expect_message in expect_selector_warning , f"Unexpected error message for confirmation: {expect_message}"
        
 # Test Case Nro 6
-# log out-> El usuario cierra sessión correctamente
+# log out-> User logs out successfully
 def test_log_out(registered_user):    
     page = registered_user['page']
     functions = registered_user['functions']
