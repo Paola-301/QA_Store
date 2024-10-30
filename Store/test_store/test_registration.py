@@ -39,7 +39,7 @@ def test_login_link_redirection(sep_up):
         print(f"Error during test: {e}")
         assert False, f"The test failed: {e}"  
     finally:
-        print("La prueba ha terminado.")
+        print("The test has finished.")
  
         
 # Test Case Nro2
@@ -130,7 +130,7 @@ def test_required_fields_validation(user_registration):
         
     except Exception as e:
         print(f"Error durante la prueba: {e}")
-        assert False, f"La prueba falló: {e}"
+        assert False, f"The test has finished: {e}"
   
   
 # Test Caso Nro4
