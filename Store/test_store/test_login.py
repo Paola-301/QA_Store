@@ -9,7 +9,7 @@ from my_functions.functions import Functions_Store
 timeout = 20
 
 # Test Case Nro1
-# Successful Login -> El usuario ingresa un email y una contraseña válidos y registrados
+# Successful Login -> The user enters a valid and registered email address and password.
 def test_successful_login(login):
     
     functions, page, email_selector, password_selector, btn_continue_selector= login
@@ -118,7 +118,6 @@ def test_empty_password_field(login):
     assert expect_message in expect_selector_warning , f"Unexpected error message for confirmation: {expect_message}"
        
 # Test Case Nro 5
-# Required Field Validation - Password -> The user attempts to log out after successfully logging in.
 #def test_session_closing(registered_user):    
 #    page = registered_user
     
